@@ -1,0 +1,101 @@
+body {
+    margin: 40px 0 0 0;
+    padding: 0;
+    background: top center #8b886c no-repeat url('http://shorelinecinema.co.nz/1121/images/page-bgnd.jpg');
+    background-size: cover;
+    color: #dfdccd;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+table {
+    border: none;
+    width: 100%;
+}
+
+.clock {
+    float: right;
+}
+
+div {
+    display: block;
+}
+
+h1, h2 {
+    color: #b22301;
+}
+
+tr.header {
+    background-color: #b4b19d !important;
+}
+
+.thumbnail {
+    margin: 0;
+    padding: 0;
+    width: 8%;
+    padding-right: 5%;
+}
+
+#main {
+    width: 93% !important;
+    background-color: #b4b19d;
+    padding: 20px 32px 30px 32px;
+    margin: 0 auto;
+}
+
+    #main h1 {
+        font-size: 45px;
+        font-weight: 700;
+        margin-top: 0;
+    }
+
+.movie_gallery_item {
+    width: 90% !important;
+    padding: 30px 30px 0 25px !important;
+}
+
+tr:nth-child(even) {
+    background: #8b886c;
+}
+
+tr:nth-child(odd) {
+    background: #9c997e;
+}
+
+#main .content .movie_gallery_item td img {
+    width: 100px !important;
+}
+
+.movie_gallery_item td h3 {
+    font-size: 35px !important;
+    font-weight: 400;
+}
+
+    .movie_gallery_item td h3 a,
+    .movie_gallery_item td h3 span {
+        color: #fff !important;
+    }
+
+#main .content .movie_gallery_item p {
+    float: right;
+    font-size: 30px !important;
+    font-weight: 200;
+    padding-right: 10%;
+}
+
+a:hover {
+    text-decoration: none !important;
+    cursor: default !important;
+}
+
+.digital-clock {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 0;
+    float: right;
+}
+.sorry {
+    color: #ece9d3;
+}
+
+

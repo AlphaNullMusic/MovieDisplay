@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Shoplifters (M)",
+    "thumbnail": "thumbnails/Shoplifters_42357_poster.jpg",
+    "time": "10:15am"
+  },
+  {
+    "title": "Mortal Engines (2018) (M)",
+    "thumbnail": "thumbnails/Mortal-Engines-2018_42359_poster.jpg",
+    "time": "10:30am"
+  },
+  {
+    "title": "Holmes and Watson (R13)",
+    "thumbnail": "thumbnails/Holmes-and-Watson_42455_poster.jpg",
+    "time": "12:30pm"
+  },
+  {
+    "title": "Bohemian Rhapsody (M)",
+    "thumbnail": "thumbnails/Bohemian-Rhapsody_42232_poster.jpg",
+    "time": "1:00pm, 6:00pm (Sold Out)"
+  },
+  {
+    "title": "They Shall Not Grow Old (RP13)",
+    "thumbnail": "thumbnails/custom_cinema_image_42291_poster.jpg",
+    "time": "2:15pm"
+  },
+  {
+    "title": "A Star Is Born (M)",
+    "thumbnail": "thumbnails/A-Star-Is-Born_42130_poster.jpg",
+    "time": "3:30pm (2 seats)"
+  },
+  {
+    "title": "The Happy Prince (M)",
+    "thumbnail": "thumbnails/The-Happy-Prince_42436_poster.jpg",
+    "time": "4:15pm"
+  },
+  {
+    "title": "At Eternities Gate (M)",
+    "thumbnail": "thumbnails/At-Eternities-Gate_42401_poster.jpg",
+    "time": "6:15pm"
+  },
+  {
+    "title": "The Favourite (R13)",
+    "thumbnail": "thumbnails/The-Favourite_42434_poster.jpg",
+    "time": "8:15pm"
+  },
+  {
+    "title": "Roma (M)",
+    "thumbnail": "thumbnails/Roma_42446_poster.jpg",
+    "time": "8:30pm"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "shoreline-movie-display",
+  "version": "0.0.0",
+  "description": "ShorelineMovieDisplay",
+  "main": "loader.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "child_process": "^1.0.2",
+    "doasync": "^2.0.1",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "jade": "^1.11.0",
+    "request": "^2.88.0",
+    "save": "^2.3.2",
+    "util": "^0.11.1"
+  }
+}
