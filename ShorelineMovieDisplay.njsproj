@@ -32,6 +32,9 @@
     <Compile Include="assets\jquery.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="assets\moment.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="loader.js" />
     <Compile Include="server.js">
       <SubType>Code</SubType>
