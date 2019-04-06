@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Ben is Back (M)",
+    "thumbnail": "thumbnails/Ben-is-Back_42471_poster.jpg",
+    "time": "10:15am"
+  },
+  {
+    "title": "The Favourite (R13)",
+    "thumbnail": "thumbnails/The-Favourite_42434_poster.jpg",
+    "time": "10:15am"
+  },
+  {
+    "title": "They Shall Not Grow Old (RP13)",
+    "thumbnail": "thumbnails/custom_cinema_image_42291_poster.jpg",
+    "time": "12:15pm"
+  },
+  {
+    "title": "Stan & Olie (G)",
+    "thumbnail": "thumbnails/Stan--Olie_42502_poster.jpg",
+    "time": "12:30pm, 4:45pm"
+  },
+  {
+    "title": "Collette (PG)",
+    "thumbnail": "thumbnails/Collette_42473_poster.jpg",
+    "time": "2:00pm, 6:30pm"
+  },
+  {
+    "title": "Green Book (M)",
+    "thumbnail": "thumbnails/Green-Book_42483_poster.jpg",
+    "time": "2:15pm, 8:30pm"
+  },
+  {
+    "title": "Mary Queen of Scots (R13)",
+    "thumbnail": "thumbnails/Mary-Queen-of-Scots_42469_poster.jpg",
+    "time": "4:00pm"
+  },
+  {
+    "title": "Border (R16)",
+    "thumbnail": "thumbnails/Border_42526_poster.jpg",
+    "time": "6:15pm"
+  },
+  {
+    "title": "Bohemian Rhapsody (M)",
+    "thumbnail": "thumbnails/Bohemian-Rhapsody_42232_poster.jpg",
+    "time": "8:15pm"
+  }
+]

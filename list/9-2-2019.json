@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Hurricane (M)",
+    "thumbnail": "thumbnails/Hurricane_42470_poster.jpg",
+    "time": "10:15am"
+  },
+  {
+    "title": "Green Book (M)",
+    "thumbnail": "thumbnails/Green-Book_42483_poster.jpg",
+    "time": "10:30am, 8:15pm (1 seat)"
+  },
+  {
+    "title": "Ben is Back (M)",
+    "thumbnail": "thumbnails/Ben-is-Back_42471_poster.jpg",
+    "time": "12:15pm, 8:30pm"
+  },
+  {
+    "title": "Bohemian Rhapsody (M)",
+    "thumbnail": "thumbnails/Bohemian-Rhapsody_42232_poster.jpg",
+    "time": "1:00pm"
+  },
+  {
+    "title": "Sink or Swim (M)",
+    "thumbnail": "thumbnails/Sink-or-Swim_42468_poster.jpg",
+    "time": "2:15pm"
+  },
+  {
+    "title": "The Favourite (R13)",
+    "thumbnail": "thumbnails/The-Favourite_42434_poster.jpg",
+    "time": "3:30pm"
+  },
+  {
+    "title": "They Shall Not Grow Old (RP13)",
+    "thumbnail": "thumbnails/custom_cinema_image_42291_poster.jpg",
+    "time": "4:30pm"
+  },
+  {
+    "title": "Mary Queen of Scots (R13)",
+    "thumbnail": "thumbnails/Mary-Queen-of-Scots_42469_poster.jpg",
+    "time": "6:00pm"
+  },
+  {
+    "title": "Capernaum (M)",
+    "thumbnail": "thumbnails/Capernaum_42472_poster.jpg",
+    "time": "6:15pm"
+  }
+]

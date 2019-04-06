@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Capernaum (M)",
+    "thumbnail": "thumbnails/Capernaum_42472_poster.jpg",
+    "time": "10:15am"
+  },
+  {
+    "title": "Stan & Olie (G)",
+    "thumbnail": "thumbnails/Stan--Olie_42502_poster.jpg",
+    "time": "10:15am, 4:30pm"
+  },
+  {
+    "title": "On the Basis of Sex (M)",
+    "thumbnail": "thumbnails/On-the-Basis-of-Sex_42543_poster.jpg",
+    "time": "12:00pm, 5:00pm"
+  },
+  {
+    "title": "Collette (PG)",
+    "thumbnail": "thumbnails/Collette_42473_poster.jpg",
+    "time": "12:30pm, 6:15pm"
+  },
+  {
+    "title": "Green Book (M)",
+    "thumbnail": "thumbnails/Green-Book_42483_poster.jpg",
+    "time": "2:15pm, 8:15pm (Sold Out)"
+  },
+  {
+    "title": "Everybody Knows (M)",
+    "thumbnail": "thumbnails/Everybody-Knows_42542_poster.jpg",
+    "time": "2:30pm"
+  },
+  {
+    "title": "Brimstone & Glory (G)",
+    "thumbnail": "thumbnails/Brimstone--Glory_42503_poster.jpg",
+    "time": "7:15pm"
+  },
+  {
+    "title": "Bohemian Rhapsody (M)",
+    "thumbnail": "thumbnails/Bohemian-Rhapsody_42232_poster.jpg",
+    "time": "8:30pm (Sold Out)"
+  }
+]

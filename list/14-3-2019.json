@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Swimming with Men (M)",
+    "thumbnail": "thumbnails/Swimming-with-Men_42544_poster.jpg",
+    "time": "10:15am, 6:00pm"
+  },
+  {
+    "title": "Collette (PG)",
+    "thumbnail": "thumbnails/Collette_42473_poster.jpg",
+    "time": "10:30am"
+  },
+  {
+    "title": "Green Book (M)",
+    "thumbnail": "thumbnails/Green-Book_42483_poster.jpg",
+    "time": "12:00pm, 7:45pm"
+  },
+  {
+    "title": "The Madness of George lll (M)",
+    "thumbnail": "thumbnails/The-Madness-of-George-lll_42560_poster.jpg",
+    "time": "12:30pm"
+  },
+  {
+    "title": "Hotel Mumbai (TBC)",
+    "thumbnail": "thumbnails/Hotel-Mumbai_41707_poster.jpg",
+    "time": "2:15pm, 8:00pm"
+  },
+  {
+    "title": "Everybody Knows (M)",
+    "thumbnail": "thumbnails/Everybody-Knows_42542_poster.jpg",
+    "time": "3:45pm"
+  },
+  {
+    "title": "Older Than Ireland (G)",
+    "thumbnail": "thumbnails/Older-Than-Ireland_42501_poster.jpg",
+    "time": "4:30pm"
+  },
+  {
+    "title": "The Price of Everything (G)",
+    "thumbnail": "thumbnails/The-Price-of-Everything_42583_poster.jpg",
+    "time": "6:15pm"
+  }
+]

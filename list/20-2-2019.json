@@ -1,0 +1,42 @@
+[
+  {
+    "title": "They Shall Not Grow Old (RP13)",
+    "thumbnail": "thumbnails/custom_cinema_image_42291_poster.jpg",
+    "time": "10:15am"
+  },
+  {
+    "title": "Green Book (M)",
+    "thumbnail": "thumbnails/Green-Book_42483_poster.jpg",
+    "time": "10:30am, 5:30pm"
+  },
+  {
+    "title": "Capernaum (M)",
+    "thumbnail": "thumbnails/Capernaum_42472_poster.jpg",
+    "time": "12:00pm"
+  },
+  {
+    "title": "Collette (PG)",
+    "thumbnail": "thumbnails/Collette_42473_poster.jpg",
+    "time": "1:00pm"
+  },
+  {
+    "title": "Ben is Back (M)",
+    "thumbnail": "thumbnails/Ben-is-Back_42471_poster.jpg",
+    "time": "2:15pm"
+  },
+  {
+    "title": "Roma (M)",
+    "thumbnail": "thumbnails/Roma_42446_poster.jpg",
+    "time": "3:00pm (FINAL SCREENING)"
+  },
+  {
+    "title": "Border (R16)",
+    "thumbnail": "thumbnails/Border_42526_poster.jpg",
+    "time": "4:15pm"
+  },
+  {
+    "title": "A Star Is Born (M)",
+    "thumbnail": "thumbnails/A-Star-Is-Born_42130_poster.jpg",
+    "time": "8:00pm"
+  }
+]

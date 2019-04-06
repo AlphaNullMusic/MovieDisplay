@@ -1,0 +1,52 @@
+[
+  {
+    "title": "The Price of Everything (G)",
+    "thumbnail": "thumbnails/The-Price-of-Everything_42583_poster.jpg",
+    "time": "10:15am"
+  },
+  {
+    "title": "Swimming with Men (M)",
+    "thumbnail": "thumbnails/Swimming-with-Men_42544_poster.jpg",
+    "time": "10:30am"
+  },
+  {
+    "title": "Stan & Olie (G)",
+    "thumbnail": "thumbnails/Stan--Olie_42502_poster.jpg",
+    "time": "12:00pm"
+  },
+  {
+    "title": "Daffodils (TBC)",
+    "thumbnail": "thumbnails/Daffodils_42566_poster.jpg",
+    "time": "12:30pm, 6:30pm (Sold Out)"
+  },
+  {
+    "title": "Collette (PG)",
+    "thumbnail": "thumbnails/Collette_42473_poster.jpg",
+    "time": "1:45pm"
+  },
+  {
+    "title": "Green Book (M)",
+    "thumbnail": "thumbnails/Green-Book_42483_poster.jpg",
+    "time": "2:15pm, 8:15pm"
+  },
+  {
+    "title": "Bohemian Rhapsody (M)",
+    "thumbnail": "thumbnails/Bohemian-Rhapsody_42232_poster.jpg",
+    "time": "3:45pm"
+  },
+  {
+    "title": "Older Than Ireland (G)",
+    "thumbnail": "thumbnails/Older-Than-Ireland_42501_poster.jpg",
+    "time": "4:45pm"
+  },
+  {
+    "title": "Destroyer (TBC)",
+    "thumbnail": "thumbnails/Destroyer_42585_poster.jpg",
+    "time": "6:15pm"
+  },
+  {
+    "title": "Everybody Knows (M)",
+    "thumbnail": "thumbnails/Everybody-Knows_42542_poster.jpg",
+    "time": "8:30pm"
+  }
+]

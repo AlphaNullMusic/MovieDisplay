@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Ben is Back (M)",
+    "thumbnail": "thumbnails/Ben-is-Back_42471_poster.jpg",
+    "time": "10:15am, 6:30pm"
+  },
+  {
+    "title": "Mary Queen of Scots (R13)",
+    "thumbnail": "thumbnails/Mary-Queen-of-Scots_42469_poster.jpg",
+    "time": "10:30am, 3:15pm"
+  },
+  {
+    "title": "Sink or Swim (M)",
+    "thumbnail": "thumbnails/Sink-or-Swim_42468_poster.jpg",
+    "time": "12:15pm"
+  },
+  {
+    "title": "Mary Poppins Returns (2018) (G)",
+    "thumbnail": "thumbnails/Mary-Poppins-Returns-2018_42454_poster.jpg",
+    "time": "12:45pm"
+  },
+  {
+    "title": "Green Book (TBC)",
+    "thumbnail": "thumbnails/Green-Book_42483_poster.jpg",
+    "time": "2:30pm (Sold Out), 8:00pm"
+  },
+  {
+    "title": "They Shall Not Grow Old (RP13)",
+    "thumbnail": "thumbnails/custom_cinema_image_42291_poster.jpg",
+    "time": "4:45pm (Sold Out)"
+  },
+  {
+    "title": "Bohemian Rhapsody (M)",
+    "thumbnail": "thumbnails/Bohemian-Rhapsody_42232_poster.jpg",
+    "time": "5:30pm"
+  },
+  {
+    "title": "The Favourite (R13)",
+    "thumbnail": "thumbnails/The-Favourite_42434_poster.jpg",
+    "time": "8:30pm"
+  }
+]
