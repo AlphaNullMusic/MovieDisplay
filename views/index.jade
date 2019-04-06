@@ -13,7 +13,16 @@ block content
         - if (movies.length)
           - for (var i = 0; i < movies.length; i++) {
             - movieTime = movies[i].time
-            if movieTime.indexOf(',') > -1
+            if movieTime.indexOf(',') > -1 && movieTime.split(',').length == 3
+              - times = movieTime.split(',');
+              - time1 = times[0].match(/10:..|11:..|12:..|1:..|2:..|3:..|4:..|5:..|6:..|7:..|8:../)[0]
+              - time2 = times[1].match(/10:..|11:..|12:..|1:..|2:..|3:..|4:..|5:..|6:..|7:..|8:../)[0]
+              - time3 = times[2].match(/10:..|11:..|12:..|1:..|2:..|3:..|4:..|5:..|6:..|7:..|8:../)[0]
+              tr.movie_gallery_item(data-index=time1 data-index1=time2 data-index2=time3)
+                td.thumbnail: img.thumbnail(src="#{movies[i].thumbnail}")
+                td: h3= movies[i].title
+                td: p: strong= times[0] + ', ' + times [1] + ', ' + times[2]
+            else if movieTime.indexOf(',') > -1 && movieTime.split(',').length == 2
               - times = movieTime.split(',');
               - time1 = times[0].match(/10:..|11:..|12:..|1:..|2:..|3:..|4:..|5:..|6:..|7:..|8:../)[0]
               - time2 = times[1].match(/10:..|11:..|12:..|1:..|2:..|3:..|4:..|5:..|6:..|7:..|8:../)[0]
@@ -61,8 +70,80 @@ block content
 
             $("tr.movie_gallery_item").each(function() {
 
-              // movies that have two times
-              if ($(this).is("[data-index1]")) {
+              // movies with three times
+              if ($(this).is("[data-index2]")) {
+                var getTime = $(this).attr('data-index');
+                var getTime1 = $(this).attr('data-index1');
+                var getTime2 = $(this).attr('data-index2');
+                var beforeTime = moment($(this).attr('data-index'), format);
+                var beforeTime1 = moment($(this).attr('data-index1'), format);
+                var beforeTime2 = moment($(this).attr('data-index2'), format);
+                var afterTime = moment('23:59', format);
+
+                // changes first time to 24h
+                var beforeHour = getTime.split(':');
+                if (beforeHour[0] >= 1 && beforeHour[0] <= 9) {     
+                    var newHour = parseInt(beforeHour[0]) + 12;
+                    beforeTime = moment(getTime.replace(/.:/,newHour + ':'), format);
+                    attrTime = getTime.replace(/.:/,newHour + ':');
+                    $(this).attr('data-index', attrTime);
+                }
+
+                // changes second time to 24h
+                var beforeHour1 = getTime1.split(':');
+                if (beforeHour1[0] >= 1 && beforeHour1[0] <= 9) {     
+                    var newHour1 = parseInt(beforeHour1[0]) + 12;
+                    beforeTime1 = moment(getTime1.replace(/.:/,newHour1 + ':'), format);
+                    attrTime1 = getTime1.replace(/.:/,newHour1 + ':');
+                    $(this).attr('data-index1', attrTime1);
+                }
+                
+                // changes third time to 24h
+                var beforeHour2 = getTime2.split(':');
+                if (beforeHour2[0] >= 1 && beforeHour2[0] <= 9) {     
+                    var newHour2 = parseInt(beforeHour2[0]) + 12;
+                    beforeTime2 = moment(getTime2.replace(/.:/,newHour2 + ':'), format);
+                    attrTime2 = getTime2.replace(/.:/,newHour2 + ':');
+                    $(this).attr('data-index2', attrTime2);
+                }
+
+                // change data-index if realtime is after first time
+                if (time.isBetween(beforeTime, afterTime)) {
+                    var firstTime = $(this).find('td p strong').text().split(',');
+                    $(this).find('td p strong').text(firstTime[1] + ", " + firstTime[2]);
+
+                    //
+                    var hour1 = $(this).attr('data-index1').split(':');   
+                    var attr1 = $(this).attr('data-index1');
+                    var hour2 = $(this).attr('data-index2').split(':');   
+                    var attr2 = $(this).attr('data-index2');
+                    attr1 = attr1.replace(/.m/, '').trim();
+                    attr2 = attr2.replace(/.m/, '').trim();
+                    $(this).attr('data-index', attr1);
+                    $(this).attr('data-index1', attr2);
+                    $(this).removeAttr('data-index2');
+                } 
+                
+                // change data-index if realtime is after second time
+                if (time.isBetween(beforeTime1, afterTime)) {
+                    var firstTime = $(this).find('td p strong').text().split(',');
+                    $(this).find('td p strong').text(firstTime[1]);
+
+                    //
+                    var hour1 = $(this).attr('data-index1').split(':');   
+                    var attr = $(this).attr('data-index1');
+                    attr = attr.replace(/.m/, '').trim();
+                    $(this).attr('data-index', attr);
+                    $(this).removeAttr('data-index1');
+                } 
+
+                // remove if realtime is after third time
+                if (time.isBetween(beforeTime2, afterTime)) {
+                    $(this).remove();
+                }
+
+              // movies with two times
+              } else if ($(this).is("[data-index1]")) {
                 var getTime = $(this).attr('data-index');
                 var getTime1 = $(this).attr('data-index1');
                 var beforeTime = moment($(this).attr('data-index'), format);
