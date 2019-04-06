@@ -16,7 +16,7 @@ app.get('/', function (req, res, next) {
         day = d.getDate(),
         month = d.getMonth() + 1,
         year = d.getFullYear(),
-        filename = day + '-' + month + '-' + year + '.json';
+        filename = year + '-' + month + '-' + day + '.json';
 
     var result = fs.readFileSync('list/' + filename, 'utf8');
     result = JSON.parse(result);
