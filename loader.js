@@ -41,7 +41,11 @@ function cI() {
                         var title = $('.movie_gallery_item a').first().next().text();
                         var url = $('.movie_gallery_item a img').first().attr('src');
                         var time = $('.movie_gallery_item p strong').first().text();
-                        if ($('.movie_gallery_item p strong').first().text().match(/.+,.+/)) {
+                        if ($('.movie_gallery_item p strong').first().text().match(/.+,.+,.+/)) {
+                            var time1 = time.replace(/,.+/, '');
+                            var time2 = time.replace(/,.+/, '');
+                            var time3 = time.replace(/,.+/, '');
+                        } else if ($('.movie_gallery_item p strong').first().text().match(/.+,.+/)) {
                             var time1 = time.replace(/,.+/, '');
                             var time2 = time.replace(/,.+/, '');
                         } else {
@@ -66,7 +70,7 @@ function cI() {
                     var month = d.getMonth() + 1;
                     var year = d.getFullYear();
                     let data = JSON.stringify(movies, null, 2);
-                    var filename = day + '-' + month + '-' + year + '.json';
+                    var filename = year + '-' + month + '-' + day + '.json';
                     if (fs.existsSync('list/' + filename)) {
                         fs.readFile('list/' + filename, function (err, filedata) {
                             if (err) throw err;
