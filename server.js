@@ -6,7 +6,7 @@
     port = 8080;
 
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 app.use('/thumbnails', express.static('thumbnails'));
 app.use('/list', express.static('list'));
 app.use('/assets', express.static('assets'));
