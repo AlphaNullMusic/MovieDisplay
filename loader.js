@@ -2,7 +2,7 @@ const request = require('request');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
-var url = 'http://www.shorelinecinema.co.nz/session_times_today.php';
+var url = 'https://shoreline.nz/whats-on-today/';
 
 function checkInternet(cb) {
     require('dns').lookup('google.com', function (err) {
@@ -23,10 +23,10 @@ function cI() {
                         console.log('An error occurred, trying again soon.');
                     }
                     $ = cheerio.load(body);
-                    var divlist = $('#main .content').html();
-
-                    var children = $('#main .content').children().length;
-
+                    var divlist = $('.information .movie-list').html();
+					
+                    var children = $('.information .movie-list').children().length;
+					console.log(children);
                     var child;
                     let movies = [];
 
@@ -38,14 +38,14 @@ function cI() {
 
                     for (child = 0; child < children; child++) {
                         var obj = {};
-                        var title = $('.movie_gallery_item a').first().next().text();
-                        var url = $('.movie_gallery_item a img').first().attr('src');
-                        var time = $('.movie_gallery_item p strong').first().text();
-                        if ($('.movie_gallery_item p strong').first().text().match(/.+,.+,.+/)) {
+                        var title = $('.featured-poster div a').first().next().text();
+                        var url = $('.featured-poster div a img').first().attr('src');
+                        var time = $('.featured-poster div p strong').first().text();
+                        if ($('.featured-poster div p strong').first().text().match(/.+,.+,.+/)) {
                             var time1 = time.replace(/,.+/, '');
                             var time2 = time.replace(/,.+/, '');
                             var time3 = time.replace(/,.+/, '');
-                        } else if ($('.movie_gallery_item p strong').first().text().match(/.+,.+/)) {
+                        } else if ($('.featured-poster div p strong').first().text().match(/.+,.+/)) {
                             var time1 = time.replace(/,.+/, '');
                             var time2 = time.replace(/,.+/, '');
                         } else {
@@ -53,11 +53,11 @@ function cI() {
                         }
 
                         var savelocation = url;
-                        savelocation = 'thumbnails/' + savelocation.replace('http://media.moviemanager.biz/movies/', '');
+                        savelocation = 'thumbnails/' + savelocation.replace('https://posters.shoreline.nz/', '');
                         download(url, savelocation, function () {
                         });
 
-                        $('.movie_gallery_item').first().remove();
+                        $('.featured-poster div').first().remove();
 
                         obj['title'] = title;
                         obj['thumbnail'] = savelocation;
