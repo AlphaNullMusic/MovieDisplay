@@ -2,7 +2,7 @@ const request = require('request');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
-var url = 'https://shoreline.nz/whats-on-today/';
+var url = 'https://shorelinecinema.co.nz/whats-on-today/';
 
 function checkInternet(cb) {
     require('dns').lookup('google.com', function (err) {
