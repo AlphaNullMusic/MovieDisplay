@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Ailo's Journey (G)",
+    "thumbnail": "thumbnails/8-large-default.jpg",
+    "time": "10:15am"
+  },
+  {
+    "title": "The Good Liar (M)",
+    "thumbnail": "thumbnails/29-large-default.jpg",
+    "time": "10:30am, 4:15pm"
+  },
+  {
+    "title": "Knives Out (PG)",
+    "thumbnail": "thumbnails/24-large-default.jpg",
+    "time": "12:00pm, 8:30pm"
+  },
+  {
+    "title": "Fisherman's Friends (PG)",
+    "thumbnail": "thumbnails/14-large-default.jpg",
+    "time": "12:30pm, 6:15pm"
+  },
+  {
+    "title": "Mrs Lowry & Sons (PG)",
+    "thumbnail": "thumbnails/25-large-default.jpg",
+    "time": "2:30pm"
+  },
+  {
+    "title": "Vita & Virginia (M)",
+    "thumbnail": "thumbnails/30-large-default.jpg",
+    "time": "2:30pm"
+  },
+  {
+    "title": "Happy Ending (M)",
+    "thumbnail": "thumbnails/32-large-default.jpg",
+    "time": "4:30pm"
+  },
+  {
+    "title": "Ford v Ferrari (PG)",
+    "thumbnail": "thumbnails/31-large-default.jpg",
+    "time": "8:15pm"
+  }
+]

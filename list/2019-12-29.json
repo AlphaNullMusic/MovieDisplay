@@ -1,0 +1,47 @@
+[
+  {
+    "title": "The Biggest Little Farm (PG)",
+    "thumbnail": "thumbnails/28-large-default.jpg",
+    "time": "10:15am"
+  },
+  {
+    "title": "Frozen II (G)",
+    "thumbnail": "thumbnails/46-large-default.jpg",
+    "time": "10:30am"
+  },
+  {
+    "title": "Cats (G)",
+    "thumbnail": "thumbnails/36-large-default.jpg",
+    "time": "12:00pm, 6:15pm"
+  },
+  {
+    "title": "The Peanut Butter Falcon (PG)",
+    "thumbnail": "thumbnails/37-large-default.jpg",
+    "time": "12:30pm"
+  },
+  {
+    "title": "Ask Dr. Ruth (M)",
+    "thumbnail": "thumbnails/34-large-default.jpg",
+    "time": "2:00pm"
+  },
+  {
+    "title": "The Good Liar (M)",
+    "thumbnail": "thumbnails/29-large-default.jpg",
+    "time": "2:15pm, 6:00pm (2 single seats)"
+  },
+  {
+    "title": "Knives Out (PG)",
+    "thumbnail": "thumbnails/24-large-default.jpg",
+    "time": "3:45pm, 8:15pm"
+  },
+  {
+    "title": "Fisherman's Friends (PG)",
+    "thumbnail": "thumbnails/14-large-default.jpg",
+    "time": "4:15pm"
+  },
+  {
+    "title": "Ford v Ferrari (PG)",
+    "thumbnail": "thumbnails/31-large-default.jpg",
+    "time": "8:00pm"
+  }
+]

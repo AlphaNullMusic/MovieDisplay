@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Cats (G)",
+    "thumbnail": "thumbnails/36-large-default.jpg",
+    "time": "10:15am, 6:15pm"
+  },
+  {
+    "title": "The Biggest Little Farm (PG)",
+    "thumbnail": "thumbnails/28-large-default.jpg",
+    "time": "10:15am"
+  },
+  {
+    "title": "Little Women (PG)",
+    "thumbnail": "thumbnails/40-large-default.jpg",
+    "time": "12:00pm (1 seat), 8:15pm (Sold Out)"
+  },
+  {
+    "title": "Frozen II (G)",
+    "thumbnail": "thumbnails/46-large-default.jpg",
+    "time": "12:15pm"
+  },
+  {
+    "title": "The Good Liar (M)",
+    "thumbnail": "thumbnails/29-large-default.jpg",
+    "time": "2:15pm (3 seats)"
+  },
+  {
+    "title": "The Gentlemen (M)",
+    "thumbnail": "thumbnails/44-large-default.jpg",
+    "time": "2:30pm (Sold Out), 6:00pm (Sold Out)"
+  },
+  {
+    "title": "The Peanut Butter Falcon (PG)",
+    "thumbnail": "thumbnails/37-large-default.jpg",
+    "time": "4:15pm (Sold Out)"
+  },
+  {
+    "title": "Happy New Year, Colin Burstead (M)",
+    "thumbnail": "thumbnails/42-large-custom.jpg",
+    "time": "4:30pm"
+  },
+  {
+    "title": "Knives Out (PG)",
+    "thumbnail": "thumbnails/24-large-default.jpg",
+    "time": "8:00pm (Sold Out)"
+  }
+]

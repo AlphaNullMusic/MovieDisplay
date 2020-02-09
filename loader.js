@@ -53,7 +53,7 @@ function cI() {
                         }
 
                         var savelocation = url;
-                        savelocation = 'thumbnails/' + savelocation.replace('https://posters.shoreline.nz/', '');
+                        savelocation = __dirname + '/thumbnails/' + savelocation.replace('https://posters.shoreline.nz/', '');
                         download(url, savelocation, function () {
                         });
 
@@ -71,18 +71,18 @@ function cI() {
                     var year = d.getFullYear();
                     let data = JSON.stringify(movies, null, 2);
                     var filename = year + '-' + month + '-' + day + '.json';
-                    if (fs.existsSync('list/' + filename)) {
-                        fs.readFile('list/' + filename, function (err, filedata) {
+                    if (fs.existsSync(__dirname + '/list/' + filename)) {
+                        fs.readFile(__dirname + '/list/' + filename, function (err, filedata) {
                             if (err) throw err;
                             if (filedata.toString('utf8') == data) {
                                 console.log('File exists, moving on.');
                             } else {
-                                fs.writeFileSync('list/' + filename, data);
+                                fs.writeFileSync(__dirname + '/list/' + filename, data);
                                 console.log('Data written to file');
                             }
                         });
                     } else {
-                        fs.writeFileSync('list/' + filename, data);
+                        fs.writeFileSync(__dirname + '/list/' + filename, data);
                         console.log('Data written to file');
                     }
                 });
