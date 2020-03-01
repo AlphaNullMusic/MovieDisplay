@@ -1,0 +1,10 @@
+[Unit]
+Description=Loads movie data for display.
+
+[Service]
+Type=simple
+User=shoreline
+ExecStart=/usr/bin/node /home/shoreline/MovieDisplay/loader.js
+
+[Install]
+WantedBy=multi-user.target

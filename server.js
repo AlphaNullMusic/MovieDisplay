@@ -7,9 +7,9 @@
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
-app.use('/thumbnails', express.static('thumbnails'));
-app.use('/list', express.static('list'));
-app.use('/assets', express.static('assets'));
+app.use('/thumbnails', express.static(__dirname + '/thumbnails'));
+app.use('/list', express.static(__dirname + 'list'));
+app.use('/assets', express.static(__dirname + 'assets'));
 
 app.get('/', function (req, res, next) {
     var d = new Date(),
@@ -18,7 +18,7 @@ app.get('/', function (req, res, next) {
         year = d.getFullYear(),
         filename = year + '-' + month + '-' + day + '.json';
 
-    var result = fs.readFileSync('list/' + filename, 'utf8');
+    var result = fs.readFileSync(__dirname + '/list/' + filename, 'utf8');
     result = JSON.parse(result);
     res.render('index', { header: 'Session Times', movieList: result });
 });

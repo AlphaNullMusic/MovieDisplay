@@ -53,8 +53,8 @@ function cI() {
                         }
 
                         var savelocation = url;
-                        savelocation = __dirname + '/thumbnails/' + savelocation.replace('https://posters.shoreline.nz/', '');
-                        download(url, savelocation, function () {
+                        savelocation = '/thumbnails/' + savelocation.replace('https://posters.shoreline.nz/', '');
+                        download(url, __dirname + savelocation, function () {
                         });
 
                         $('.featured-poster div').first().remove();

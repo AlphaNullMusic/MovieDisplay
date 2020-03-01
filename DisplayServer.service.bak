@@ -1,0 +1,10 @@
+[Unit]
+Description=Serves the loaded content.
+
+[Service]
+Type=simple
+User=shoreline
+ExecStart=/usr/bin/node /home/shoreline/MovieDisplay/server.js
+
+[Install]
+WantedBy=multi-user.target
